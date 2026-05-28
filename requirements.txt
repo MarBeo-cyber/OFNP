@@ -1,0 +1,8 @@
+flask>=2.3.0
+numpy>=1.24.0
+pytest>=7.4
+# Production additions (uncomment for hardware deployment):
+# pyserial>=3.5          # Serial communication with ESP32
+# bleak>=0.21.0          # BLE communication (cross-platform)
+# scipy>=1.11.0          # Production IIR filter design
+# adafruit-circuitpython-ads1x15  # ADS1115 ADC driver
